@@ -102,6 +102,7 @@ element_search_text.onkeyup = function(event) {
 };
 
 if (/Android|webOS|iPhone|iPad|BlackBerry|Windows Phone|Opera Mini|IEMobile|Mobile/i.test(navigator.userAgent)){
+    document.getElementById("main_link").href="http://m.naver.com";
     document.getElementById("noti_link").href="http://m.me.naver.com/noti.nhn";
     document.getElementById("more_link").href="https://m.naver.com/services.html";
     card_custom_max = 10;
